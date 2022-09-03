@@ -1,0 +1,17 @@
+{
+  "hosting":{
+  "site": "breakingbadwiki-cc97d",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+<div class="container ">
+<h1>Breaking Bad Wiki</h1>
+<h2>Aaron Francolino</h2>
+<h3><a href="https://www.github.com/aaron2494">my github</a></h3>
+<hr/>
+<input type="text" 
+class="form-control" 
+placeholder="Walter White.." 
+(input)="filter($event)">
+
+<div class="row">
+    <div *ngFor="let personaje of personajes" class="col-xl-4 col-sm-6 col-xs-12">
+        <app-card [personaje]="personaje"></app-card>
+    </div>
+</div>
+</div>

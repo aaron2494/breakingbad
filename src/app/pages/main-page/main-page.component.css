@@ -1,0 +1,23 @@
+*{
+    background-image:url(../../../assets/breaking.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: none;
+    
+}
+input{
+    color: black;
+}
+.form-control:focus {
+    color: black;
+}
+h2{
+    text-align:right;
+}
+h3{
+    text-align:right;
+}
+
+
