@@ -1,7 +1,6 @@
 {
-  "hosting":{
-  "site": "breakingbadwiki-cc97d",
-    "public": "public",
+  "hosting": {
+    "public": "dist/breakingbad",
     "ignore": [
       "firebase.json",
       "**/.*",
